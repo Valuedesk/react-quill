@@ -11908,7 +11908,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		If we could not update settings from the new props in-place, we have to tear
 		down everything and re-render from scratch.
 		*/
-		componentWillUpdate: function(nextProps, nextState) {
+		UNSAFE_componentWillUpdate: function(nextProps, nextState) {
 			if (this.state.generation !== nextState.generation) {
 				this.componentWillUnmount();
 			}
