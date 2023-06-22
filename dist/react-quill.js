@@ -11801,7 +11801,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			};
 		},
 	
-		componentWillReceiveProps: function(nextProps, nextState) {
+		UNSAFE_componentWillReceiveProps: function(nextProps, nextState) {
 			var editor = this.editor;
 	
 			// If the component is unmounted and mounted too quickly
